@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dip"
+		
+		android:background="@drawable/fondo_titular"
+    >
+<TextView android:text="MasterD"
+android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:textStyle="bold"
+		android:textColor="#F56200"
+
+/>
+<TextView android:id="@+id/titular" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/cargando"
+		
+		android:gravity="center_vertical|center_horizontal"
+		
+		
+		 />
+		 
+</LinearLayout>

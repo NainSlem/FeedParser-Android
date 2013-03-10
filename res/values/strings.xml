@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TitularesActivity!</string>
+    <string name="app_name">Exitae</string>
+    <string name="no_hay_feeds">No hay artículos.</string>
+    <string name="titulo_noticias">Noticias</string>
+    <string name="acerca_de"><b>Curso Android - Tema 14</b>\n\n
+		(c) 2010 Master.D\n
+		Teléfono: 902404140\n\n
+		www.master-d.es</string>
+    <string name="cargando">Cargando...</string>
+
+</resources>

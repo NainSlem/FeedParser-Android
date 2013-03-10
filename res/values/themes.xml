@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Tema -->
+
+<style name="MasterD" parent="@android:style/Theme.Light">
+	<item name="android:windowTitleStyle">@style/Titulo</item>
+	<item name="android:windowTitleBackgroundStyle">@style/FondoTitulo</item>
+	<item name="android:buttonStyle">@style/MiBoton</item>
+</style>
+
+<!-- Tema ventana flotante -->
+
+<style name="MasterD.Dialog">
+
+	<item name="android:windowIsFloating">true</item>
+	<item name="android:windowFrame">@null</item>
+
+    <item name="android:windowContentOverlay">@null</item>
+
+	<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+	<item name="android:windowBackground">@android:color/transparent</item>
+	<item name="android:windowNoTitle">true</item>
+</style>
+
+
+</resources>

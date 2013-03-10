@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:layout_margin="15dip" 
+	android:background="@drawable/fondo_titular">
+	
+	<TextView android:id="@+id/feedTitulo" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="-" android:gravity="left|top"
+		style="@style/TituloNaranja" android:drawableRight="@drawable/close" />
+
+	<TextView android:id="@+id/feedFecha" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="-" android:gravity="right"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#777" />
+
+	<WebView android:id="@+id/feedContenido" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="-"
+		android:textColor="#777" />
+</LinearLayout>
